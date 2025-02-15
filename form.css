@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body{
+    display: flex;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(135deg,white, #C20114 ,white ,#0C120C); */
+    background-color: #E0E0E0;
+    /* padding: 10px; */
+}
+
+.main {
+    /* max-width: 700px; */
+    height: 182vh;
+    width: 130vh;
+    margin: 20px;    
+    padding: 20px 30px;
+    background-color: beige;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    
+}
+#title{
+    font-size: 30px;
+    background-color: #C20114;
+    /* text-indent: 10px; */
+    text-decoration:underline ;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+
+} 
+.main input {
+    padding: 4px;
+    margin: 5px;
+}
+/* #button {
+    margin: 10%;
+} */
+.main tr td {
+    
+    border-bottom: 1px solid black;
+    padding: 6px;
+      
+}
+.main .metric {
+    width: 500px;
+    text-indent: 8px;
+}
+.metric #Matric {
+    margin-right: 20px;
+   
+}
+.metric #Intermediate {
+    margin-right: 20px;
+}
+
+.main #Male {
+    text-indent: 8px;
+}
+.main #Male #Gender {
+    margin-right: 20px;
+}
+.main .table_2 #courses {
+    width: 600px;
+    
+}
+button {
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 6px;
+    display: inline-block;
+    background-color: #0C120C;
+    color: white;
+    /* margin-left: 2000px; */
+}
+fieldset {
+    border: 1px solid black; /* Ensure border is visible */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.main #name {
+    width: 50vh;
+    
+}
+.main .row_1 #test{
+    width: 400px;
+}
+#age {
+    text-indent: 5px;
+}
