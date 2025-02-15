@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Forms using table tag -->
+     <div class="main">
+     <h1 id="title">Registeration Form for PITP Batch-04</h1>
+     <form action="">
+        <fieldset>
+        <table>
+        
+            <legend>Personal Information</legend>
+        <tr class="row_1">
+            <td id="name">First Name:</td>
+            <td id="test"><input type="text" name="username" id="username" value="" placeholder="Enter your username" required autofocus></td>
+        </tr>
+        
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="Last_name" id="Last_name"  placeholder="Enter your last name" autocomplete="on"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td id="Male">Male<input type="radio" name="Gender" id="Gender">
+            Female<input type="radio" name="Gender" id="Gender"></td>
+        </tr>
+        <tr>
+            <td>DOB</td>
+            <td><input type="date" name="DOB" id="DOB"></td>
+        </tr>
+        <tr id="age">
+            <td>Age</td>    
+            <td><select name="age" id="age">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+
+
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" id="email" placeholder="Enter your email address" required autocomplete="email"></td>
+        </tr>
+        <tr>
+            <td>Contact no: </td>
+            <td><input type="tel" name="num" id="num" placeholder="Enter your phone number" required></td>
+        </tr>
+        </table>
+        </fieldset>
+        
+        <fieldset>
+        <table>
+        
+            <legend>Educational Status</legend>
+        <tr>
+            <td>Qualification</td>
+            <td class="metric">Matric/O levels<input type="radio" name="Qualification" id="Matric">
+            Intermediate<input type="radio" name="Qualification" id="Intermediate">
+            Degree Program<input type="radio" name="Qualification" id="Degree_Program"></td>
+        </tr>
+        <tr>
+            <td>Enter your last degree certificate</td>
+            <td><input type="file" name="file" id="file" required></td>
+        </tr>
+        </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Course Information</legend>
+        <table class="table_2">
+        <tr id="courses">
+            <td >Select the courses you want to apply:</td>
+        </tr>
+        <tr>
+            <td>Certified Graphic Designer<input type="checkbox" name="graphics" id="graphics"></td>
+        </tr>
+        <tr>
+            <td>Certified Python Developer<input type="checkbox" name="pd" id="pd"></td>
+        </tr>
+        <tr>
+            <td>Certified Database manager<input type="checkbox" name="dd" id="dd"></td>
+        </tr>
+        <tr>
+            <td>Certified Ecommerce Expert<input type="checkbox" name="Ecom" id="Ecom"></td>
+        </tr>
+        <tr>
+            <td>Certified digital marketing professional<input type="checkbox" name="dm" id="dm"></td>
+        </tr>
+        <tr>
+            <td>Certified Java Developer<input type="checkbox" name="jd" id="jd"></td>
+        </tr>
+        </table>
+        </fieldset>
+        <table>    
+        <tr>
+            <td><i>Note:</i></td>
+            <td>Are you enrolled in any degree program?</td>
+            <td>Yes<input type="radio" name="enroll" id="yes" required></td>
+            <td>No<input type="radio" name="enroll" id="no" required></td>
+        </tr>
+        </table>
+    
+     <button>Register now</button>
+    </div>
+</form>
+
+</body>
+</html>
